@@ -28,4 +28,5 @@ end
 
 def find_a(a)
   a.start_with?("a")
+  a.select {|word| word.start_with?('a')}
 end

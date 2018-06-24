@@ -33,3 +33,5 @@ end
 def sum_array(sum)
   sum.inject(0, :+)
 end
+
+def add_s(adding)

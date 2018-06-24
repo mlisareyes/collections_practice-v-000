@@ -3,7 +3,7 @@ def sort_array_asc(numbers)
 end
 
 def sort_array_desc(num)
-  num.sort do {|x, y| y <=> x}
-    puts num
+  num.sort do |x, y|
+    y <=> x
   end
 end

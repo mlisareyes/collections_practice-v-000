@@ -5,3 +5,4 @@ end
 def sort_array_desc(down)
   down.sort! {|x, y| y <=> x}
   puts down
+end

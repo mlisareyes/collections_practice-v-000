@@ -32,3 +32,4 @@ end
 
 def sum_array(sum)
   sum.inject
+end

@@ -25,3 +25,6 @@ def kesha_maker(dollar_sign)
     item[2] = "$"
   end
 end
+
+def find_a(a)
+  a.find?(a)

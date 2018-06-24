@@ -27,4 +27,5 @@ def kesha_maker(dollar_sign)
 end
 
 def find_a(a)
-  a.find?(a)
+  a.find?("a")
+end

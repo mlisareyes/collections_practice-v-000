@@ -35,9 +35,11 @@ def sum_array(sum)
 end
 
 def add_s(adding)
-    adding.collect do |word|
-      if adding[1] == word
-        word
-      else
-        word + "s"
-      end
+  adding.collect do |word|
+    if adding[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end

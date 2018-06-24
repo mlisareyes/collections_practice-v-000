@@ -10,3 +10,4 @@ end
 
 def sort_array_char_count(characters)
   characters.sort{|x, y| x.length <=> y.length}
+end

@@ -21,3 +21,7 @@ def reverse_array(int)
 end
 
 def kesha_maker(dollar_sign)
+  dollar_sign.each do |item|
+    item[2] = "$"
+  end
+end

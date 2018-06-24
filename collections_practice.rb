@@ -27,5 +27,5 @@ def kesha_maker(dollar_sign)
 end
 
 def find_a(a)
-  a.start_with?"A"
+  a.start_with?"a"
 end

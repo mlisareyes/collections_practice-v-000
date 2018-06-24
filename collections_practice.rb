@@ -31,3 +31,4 @@ def find_a(a)
 end
 
 def sum_array(sum)
+  sum.inject
